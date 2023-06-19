@@ -7,8 +7,9 @@ sections:
   - block: markdown
     content:
       title: Workshop @ Comète on Ethical AI
-      subtitle: October 5, 2023 - Palaiseau, Paris, France
-      text:
+      subtitle: October 5-6, 2023 - Palaiseau, Paris, France
+      text: |
+        <center>{{<figure src="logos-all.png" class="">}}</center>
     design:
       columns: '1'
       # background:
@@ -30,17 +31,76 @@ sections:
       title: About
       subtitle: 
       text: |
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing
+
+        Main topics
+        -----------
+        - Trade-offs
+        - Privacy
+        - Fairness
+        - Causality
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: card
-  
-  - block: contact
-    id: location
+
+  - block: markdown
+    id: keynotes
     content:
-      title: Location
+      title: Keynotes
+      # subtitle: 
+      text: |
+        - Keynote 1
+        - Keynote 2
+        - ...
+    design:
+      # See Page Builder docs for all section customization options.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+      view: card
+
+  - block: markdown
+    id: programme
+    content:
+      title: Programme
+      # subtitle: 
+      text: |
+        <style>
+        thead {
+          background-color: rgb(252,205,77,.7);
+        }
+        # tr:nth-child(even ) {
+        #   background-color: #b2b2b2!important;
+        #   color: #f4f4f4!important;
+        # }
+        </style>
+
+        | *Thursday, October 5*       |
+        |-----------------|---------|
+        | 09:00 - 10:00   | A |
+        | 10:00 - 11:00   | B       |
+        | 11:00 - 12:00   | C      |
+        | 12:00 - 14:00   | Lunch   |
+
+        | *Friday, October 6*         |
+        |-----------------|---------|
+        | 09:00 - 10:00   | A |
+        | 10:00 - 11:00   | B      |
+        | 11:00 - 12:00   | C      |
+        | 12:00 - 14:00   | Lunch   |
+
+    design:
+      # See Page Builder docs for all section customization options.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+      view: compact
+
+
+  - block: contact
+    id: venue
+    content:
+      title: Venue
       subtitle:
       text: |
         > Inria Saclay  
@@ -54,46 +114,21 @@ sections:
         longitude: '2.2056062'
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
 
   - block: people
+    id: organizers
     content:
-      title: Meet the Team
+      title: Organizers
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Principal Investigators
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
-          - Alumni
-      sort_by: Params.last_name
+          - Organizers
+      sort_by: Params.first_name
       sort_ascending: true
     design:
       show_interests: false
       show_role: true
-      # show_social: true
+      show_social: true
       view: card
-
-  # - block: hero
-  #   content:
-  #     title: |
-  #       Wowchemy
-  #       Research Group
-  #     image:
-  #       filename: welcome.jpg
-  #     text: |
-  #       <br>
-        
-  #       The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  # - block: markdown
-  #   content:
-  #     title:
-  #     subtitle:
-  #     text: |
-  #       {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-  #   design:
-  #     columns: '1'
 ---

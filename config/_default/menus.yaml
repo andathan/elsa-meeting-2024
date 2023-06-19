@@ -7,18 +7,18 @@ main:
   - name: About
     url: /#about
     weight: 10
-  - name: Location
-    url: /#location
+  - name: Keynotes
+    url: /#keynotes
     weight: 20
-  - name: Speakers
-    url: /#speakers
+  - name: Programme
+    url: /#programme
     weight: 30
-  - name: Schedule
-    url: /#schedule
+  - name: Venue
+    url: /#venue
     weight: 40
-  - name: Sponsors
-    url: /#sponsors
+  - name: Organizers
+    url: /#organizers
     weight: 50
-  - name: Partners
-    url: /#partners
-    weight: 60
+  # - name: Partners
+  #   url: /#partners
+  #   weight: 60
