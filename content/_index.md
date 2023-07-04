@@ -6,23 +6,27 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Workshop @ Comète on Ethical AI
-      subtitle: October 5-6, 2023 - Palaiseau, Paris, France
+      title: |
+        <center>{{<figure src="logos-all-white.png" width="50%" height="50%">}}</center>
+      subtitle: |
+        Workshop @ Comète on Ethical AI
+        {style="color: white;font-size: 2.25rem;"}
       text: |
-        <center>{{<figure src="logos-all.png" class="">}}</center>
+          November, 16-17, 2023 - Palaiseau, Paris, France
+          {style="color: white;font-size: 1.1rem;text-align: center"}
     design:
       columns: '1'
-      # background:
-      #   image: 
-      #     filename: coders.jpg
-      #     filters:
-      #       brightness: 1
-      #     parallax: false
-      #     position: center
-      #     size: cover
-      #     text_color_light: true
+      background:
+        image: 
+          filename: ethics.jpg
+          filters:
+            brightness: .5
+          parallax: true
+          position: center
+          size: cover
+          text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['2%', '0', '20%', '0']
       # css_class: fullscreen
 
   - block: markdown
@@ -31,14 +35,7 @@ sections:
       title: About
       subtitle: 
       text: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing
-
-        Main topics
-        -----------
-        - Trade-offs
-        - Privacy
-        - Fairness
-        - Causality
+        An international woorkshop on issues in Ethical Machine Learning with special focus on Privacy and Fairness. The topics range from theoretical work to practical applications and interdisciplinary discussions.
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -51,9 +48,7 @@ sections:
       title: Keynotes
       # subtitle: 
       text: |
-        - Keynote 1
-        - Keynote 2
-        - ...
+        To be announced.
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -66,30 +61,7 @@ sections:
       title: Programme
       # subtitle: 
       text: |
-        <style>
-        thead {
-          background-color: rgb(252,205,77,.7);
-        }
-        # tr:nth-child(even ) {
-        #   background-color: #b2b2b2!important;
-        #   color: #f4f4f4!important;
-        # }
-        </style>
-
-        | *Thursday, October 5*       |
-        |-----------------|---------|
-        | 09:00 - 10:00   | A |
-        | 10:00 - 11:00   | B       |
-        | 11:00 - 12:00   | C      |
-        | 12:00 - 14:00   | Lunch   |
-
-        | *Friday, October 6*         |
-        |-----------------|---------|
-        | 09:00 - 10:00   | A |
-        | 10:00 - 11:00   | B      |
-        | 11:00 - 12:00   | C      |
-        | 12:00 - 14:00   | Lunch   |
-
+        To be announced.
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -125,10 +97,35 @@ sections:
       user_groups:
           - Organizers
       sort_by: Params.first_name
-      sort_ascending: true
+      sort_ascending: false
     design:
       show_interests: false
       show_role: true
       show_social: true
       view: card
 ---
+
+
+# <style>
+# thead {
+#   background-color: rgb(252,205,77,.7);
+# }
+# # tr:nth-child(even) {
+# #   background-color: #b2b2b2!important;
+# #   color: #f4f4f4!important;
+# # }
+# </style>
+
+# | *Monday, October 2*     |
+# |-----------------| :---    |
+# | 09:00 - 10:00   | A       |
+# | 10:00 - 11:00   | B       |
+# | 11:00 - 12:00   | C       |
+# | 12:00 - 14:00   | Lunch   |
+
+# | *Tuesday, October 3*       |
+# |-----------------| :---    |
+# | 09:00 - 10:00   | A       |
+# | 10:00 - 11:00   | B       |
+# | 11:00 - 12:00   | C       |
+# | 12:00 - 14:00   | Lunch   |

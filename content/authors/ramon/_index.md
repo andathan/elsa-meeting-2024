@@ -14,17 +14,15 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student at Inria, LIX Polytechnique
+role: |
+  PhD Student at Inria, LIX École Polytechnique
+
+  ramon.gonze@inria.fr
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Organizers
-
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:ramon.gonze@inria.fr'
     
 email: 'ramon.gonze@inria.fr'
 ---

@@ -14,17 +14,15 @@ authors:
 superuser: false
 
 # Role/position
-role: Post-doctoral at Inria
+role: |
+  Post-doctoral research at Inria
+
+  szilvia.lestyan@inria.fr
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Organizers
 
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:szilvia.lestyan@inria.fr'
-    
 email: 'szilvia.lestyan@inria.fr'
 ---

@@ -14,17 +14,15 @@ authors:
 superuser: false
 
 # Role/position
-role: Director of Research at Inria
+role: |
+  Director of Research at Inria
+  
+  catuscia@lix.polytechnique.fr
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Organizers
 
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:catuscia@lix.polytechnique.fr'
-    
 email: 'catuscia@lix.polytechnique.fr'
 ---

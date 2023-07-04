@@ -1,28 +1,28 @@
 ---
 # Display name
-title: Ruta Binkyte
+title: Bilel Benbouzid
 
 # Full name (for SEO)
-first_name: Ruta
-last_name: Binkyte
+first_name: Bilel
+last_name: Benbouzid
 
 # Username (this should match the folder name)
 authors:
-  - ruta
+  - bilel
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
 role: |
-  PhD Student at Inria, LIX École Polytechnique
+  Professor at Université Gustave Eiffel
 
-  ruta.binkyte-sadauskiene@inria.fr
+  bilel.benbouzid@u-pem.fr
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Organizers
 
-email: 'ruta.binkyte-sadauskiene@inria.fr'
+email: 'bilel.benbouzid@u-pem.fr'
 ---
