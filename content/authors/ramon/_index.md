@@ -15,7 +15,7 @@ superuser: false
 
 # Role/position
 role: |
-  PhD Student at Inria, LIX École Polytechnique
+  PhD Student at Inria, LIX École Polytechnique and Federal University of Minas Gerais
 
   ramon.gonze@inria.fr
 

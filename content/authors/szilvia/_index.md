@@ -15,7 +15,7 @@ superuser: false
 
 # Role/position
 role: |
-  Post-doctoral research at Inria
+  Post-doctoral Researcher at Inria
 
   szilvia.lestyan@inria.fr
 
