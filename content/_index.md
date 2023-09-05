@@ -12,7 +12,7 @@ sections:
         Workshop @ Comète on Ethical AI
         {style="color: white;font-size: 2.25rem;"}
       text: |
-          November 16-17, 2023 - Palaiseau, Paris, France
+          November 23-24, 2023 - Palaiseau, Paris, France
           {style="color: white;font-size: 1.1rem;text-align: center"}
     design:
       columns: '1'
