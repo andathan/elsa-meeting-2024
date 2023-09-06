@@ -35,7 +35,7 @@ sections:
       title: About
       subtitle: 
       text: |
-        The research team [Comète (Inria Polytechnique)](https://team.inria.fr/Comete/) is launching a call for proposals for a 2 days workshop on **Ethical Artificial Intelligence**, that will take place on 16th-17th November 2023. For this second session, we focus on the **intrinsic trade-offs** that lie at the heart of Ethical AI. As we observe encouraging progress in domains such as **Fairness, Privacy, Explainability, and Robustness**, we also see tensions between different goals of Ethical AI. The goal of this Workshop is to have a higher-level overview of the challenges and achievements of trying to satisfy multiple desiderata of Ethical AI at once. We seek to bring together researchers from diverse disciplines in computer science, social sciences, law, and industry practitioners. The possible topics include, but are not limited to trade-offs between:
+        The research team [Comète (Inria Polytechnique)](https://team.inria.fr/Comete/) is launching a call for proposals for a 2 days workshop on **Ethical Artificial Intelligence**, that will take place on 23th-24th November 2023. For this second session, we focus on the **intrinsic trade-offs** that lie at the heart of Ethical AI. As we observe encouraging progress in domains such as **Fairness, Privacy, Explainability, and Robustness**, we also see tensions between different goals of Ethical AI. The goal of this Workshop is to have a higher-level overview of the challenges and achievements of trying to satisfy multiple desiderata of Ethical AI at once. We seek to bring together researchers from diverse disciplines in computer science, social sciences, law, and industry practitioners. The possible topics include, but are not limited to trade-offs between:
           - Fairness and accuracy
           - Privacy and accuracy
           - Explainability and accuracy
@@ -55,9 +55,9 @@ sections:
 
         {{% callout note %}}
         #### Key dates
-        - Abstract submission: 20th September, 2023
-        - Confirmation of acceptance: 06th October, 2023
-        - Workshop: 16th-17th November, 2023
+        - Abstract submission: 09th October, 2023
+        - Confirmation of acceptance: 16th October, 2023
+        - Workshop: 23th-24th November, 2023
         {{% /callout %}}
     design:
       # See Page Builder docs for all section customization options.
