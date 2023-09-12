@@ -27,9 +27,9 @@ role: Associate Professor at the faculty of law at the [University of Liege](htt
 user_groups:
   - Keynotes
 ---
-<!-- 
-#### Title: The tension between technical and legal explanations of machine learning
 
+#### Title: The Explanations One Needs for the Explanations One Gives: Thoughts on the Epistemic Link between Explainable AI and Causal (Evidentiary) Explanations under the EU’s AI Liability Regulation
+<!-- 
 ##### Abstract
 
 ---
