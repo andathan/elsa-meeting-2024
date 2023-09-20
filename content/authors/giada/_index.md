@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Principal Ethicist at [Hugging Face](https://huggingface.co/).
+role: Principal Ethicist, [Hugging Face](https://huggingface.co/).
 
 # Short bio (displayed in user profile at end of posts)
 # bio: 

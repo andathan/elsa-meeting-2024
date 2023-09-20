@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Associate Professor at the faculty of law at the [University of Liege](https://www.uliege.be/cms/c_8699436/en/uliege)
+role: Permanent Research Associate, [University of Liège](https://www.uliege.be/cms/c_8699436/en/uliege)
 
 # Short bio (displayed in user profile at end of posts)
 # bio: f
@@ -28,10 +28,10 @@ user_groups:
   - Keynotes
 ---
 
-#### Title: The aim of this presentation is to bridge the concept of explainability in connection to AI and (legal) evidence.
+#### Title: The Explanations One Needs for the Explanations One Gives: Thoughts on the Epistemic Link between Explainable AI and Causal (Evidentiary) Explanations under the EU’s AI Liability Regulation
 
 ##### Abstract
-We will specifically explore the epistemology and interrelationship between explanations relative to the (in)accuracy of AI output and causal explanations pertaining to the link between that output and a harm suffered.
+The aim of this presentation is to bridge the concept of explainability in connection to AI and (legal) evidence. We will specifically explore the epistemology and interrelationship between explanations relative to the (in)accuracy of AI output and causal explanations pertaining to the link between that output and a harm suffered.
 
 With explanatory accuracy as fil rouge, our analytical framework includes two main theoretical touchstones (and corresponding methodologies). The first strand consists of general knowledge construction theory and the epistemology of legal evidence. This strand will inform us of the conditions that need to be met for explanations pertaining to AI output and those pertaining to causality in connection to that output to be considered as accurate (or at least plausible). The second theoretical touchstone is the theory of justice and procedural fairness. The choice of this strand is justified by the fact that trials are the privileged epistemic contexts where accurate explanations on disputed facts are sought. To meet the standards of accuracy required for those, litigants in AI liability disputes should be able to have procedural entitlements that could allow them to give evidence and explain causation in conditions of procedural parity. In light of this (procedural) equality requirement that should frame the pursuit of fact-accuracy in adjudicatory contexts, the key analytical referent for this study is the theory of procedural abilities i.e. entitlements that litigants should enjoy in order to effectively make their views known before a court.
 
