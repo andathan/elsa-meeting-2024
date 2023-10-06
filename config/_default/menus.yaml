@@ -19,6 +19,7 @@ main:
   - name: Organizers
     url: /#organizers
     weight: 50
-  # - name: Partners
-  #   url: /#partners
-  #   weight: 60
+  - name: 2022
+    parent: Previous editions
+    url: /previous/2022/
+    weight: 10
