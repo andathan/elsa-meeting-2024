@@ -50,15 +50,15 @@ sections:
 
         Join us for interdisciplinary discussions, thought-provoking conversations, knowledge-sharing, and friendly coffee breaks :). Last but not the least, the workshop is getting famous for French gourmet dinner for the participants!
         
-        {{< cta cta_text="Click here to register to attend and/or submit an abstract before 09th October" cta_link="https://docs.google.com/forms/d/e/1FAIpQLSc8_ifqA8GsnqDTKG8hXoviVBWJvqQ8_-aV2cwUrXmmjWo0jA/viewform?usp=sf_link">}}
+        {{< cta cta_text="Click here to register to attend and/or submit an abstract before 19th October" cta_link="https://docs.google.com/forms/d/e/1FAIpQLSc8_ifqA8GsnqDTKG8hXoviVBWJvqQ8_-aV2cwUrXmmjWo0jA/viewform?usp=sf_link">}}
 
         If you have any questions please contact szilvia.lestyan@inria.fr.
 
         {{% callout note %}}
         #### Key dates
-        - Abstract submission: 09th October, 2023
-        - Confirmation of acceptance: 16th October, 2023
-        - Workshop: 23th-24th November, 2023
+        - Abstract submission: ~~09th October 2023~~ 19th October 2023
+        - Confirmation of acceptance: 21th October 2023
+        - Workshop: 23th-24th November 2023
         {{% /callout %}}
     design:
       # See Page Builder docs for all section customization options.
