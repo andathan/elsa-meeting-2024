@@ -56,8 +56,8 @@ sections:
 
         {{% callout note %}}
         #### Key dates
-        - Abstract submission: ~~09th October 2023~~ 19th October 2023
-        - Confirmation of acceptance: 21th October 2023
+        - Abstract submission: ~~09th October 2023~~ ~~19th October 2023~~
+        - Confirmation of acceptance: ~~21th October 2023~~
         - Workshop: 23th-24th November 2023
         {{% /callout %}}
     design:
@@ -93,7 +93,41 @@ sections:
       title: Programme
       # subtitle: 
       text: |
-        To be announced.
+        <style>
+          thead {
+            background: rgb(252,213,100);
+          }
+          tr:nth-child(even) {
+            background-color: #f2f2f2;
+          }
+        </style>
+        | **Thursday**   |                                                         |
+        |----------------|---------------------------------------------------------|
+        | **Time**       | **Event**                                               |
+        | 10:30 – 12:00  | Welcome Brunch                                          |
+        | 12:00 – 13:15  | **Keynote - Ljupcho Grozdanovski and discussion**       |
+        | 13:15 – 13:30  | Short coffee break                                      |
+        | 13:30 – 14:50  | Presentations                                           |
+        | 14:50 – 15:15  | Break                                                   |
+        | 15:10 – 16:30  | Presentations                                           |
+        | 16:30 – 16:45  | Break                                                   |
+        | 16:45 – 18:00  | **Keynote - Ferdinando Fioretto and discussion**        |
+        | 18:00 - 19:00  | Free time, free discussions, go to restaurant           |
+        | 19:00 - ?      | Dinner at bar 19 (approx 500m walk from INRIA building) |
+
+
+        | **Friday**     |                                                         |
+        |----------------|---------------------------------------------------------|
+        | **Time**       | **Event**                                               |
+        | 9:00 – 9:30    | Welcome Coffee                                          |
+        | 9:30 – 10:45   | Presentations                                           |
+        | 10:45 – 11:00  | Break                                                   |
+        | 11:00 – 12:30  | Presentations                                           |
+        | 12:30 – 13:45  | Lunch                                                   |
+        | 13:45 – 15:15  | **Keynote - Giada Pistilli and discussion**             |
+        | 15:15 – 15:30  | Break                                                   |
+        | 15:30 – 17:00  | Round Table                                             |
+        | 17:00 – 18:00  | Free discussions with coffee and snacks                 |
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
