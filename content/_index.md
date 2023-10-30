@@ -119,9 +119,9 @@ sections:
         | **Friday**     |                                                         |
         |----------------|---------------------------------------------------------|
         | **Time**       | **Event**                                               |
-        | 9:00 – 9:30    | Welcome Coffee                                          |
-        | 9:30 – 10:45   | Presentations                                           |
-        | 10:45 – 11:00  | Break                                                   |
+        | 08:30 – 09:00  | Welcome Coffee                                          |
+        | 09:00 – 10:40  | Presentations                                           |
+        | 10:40 – 11:00  | Break                                                   |
         | 11:00 – 12:30  | Presentations                                           |
         | 12:30 – 13:45  | Lunch                                                   |
         | 13:45 – 15:15  | **Keynote - Giada Pistilli and discussion**             |
