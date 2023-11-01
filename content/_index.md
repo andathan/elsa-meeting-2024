@@ -101,37 +101,50 @@ sections:
             background-color: #f2f2f2;
           }
         </style>
-        | **Thursday**   |                                                         |
-        |----------------|---------------------------------------------------------|
-        | **Time**       | **Event**                                               |
-        | 10:30 – 12:00  | Welcome Brunch                                          |
-        | 12:00 – 13:15  | **Keynote - Ljupcho Grozdanovski and discussion**       |
-        | 13:15 – 13:30  | Short coffee break                                      |
-        | 13:30 – 14:50  | Presentations                                           |
-        | 14:50 – 15:15  | Break                                                   |
-        | 15:10 – 16:30  | Presentations                                           |
-        | 16:30 – 16:45  | Break                                                   |
-        | 16:45 – 18:00  | **Keynote - Ferdinando Fioretto and discussion**        |
-        | 18:00 - 19:00  | Free time, free discussions, go to restaurant           |
-        | 19:00 - ?      | Dinner at bar 19 (approx 500m walk from INRIA building) |
+        | **Thursday**   |                                                                    ||
+        |----------------|--------------------------------------------------------------------|-|
+        | **Time**       | **Event**                                                          ||
+        | 10:30 – 12:00  | Welcome Brunch                                                     ||
+        | 12:00 – 13:15  | **Keynote: Ljupcho Grozdanovski -- _University of Liège_** <br/> **The Explanations One Needs for the Explanations One Gives: Thoughts on the Epistemic Link between Explainable AI and Causal (Evidentiary) Explanations under the EU’s AI Liability Regulation** | [[Abstract]]({{< relref "authors/ljupcho" >}}) |
+        | 13:15 – 13:30  | Short coffee break                                                 ||
+        | 13:30 – 13:50  | What is the meaning of "bias" in AI? <br/> *Ambre Davat* -- *GRESEC / Chaire Ethique & IA (Institut MIAI)*    | [[Abstract]]({{< relref "../presentations/ambre-davat" >}})|
+        | 13:50 – 14:10  | The need for an interdisciplinary approach to AI research Developing a research ethics framework for AI <br/> *Anais Resseguier* -- *Trilateral Research* | [[Abstract]]({{< relref "../presentations/anais-resseguier" >}})|
+        | 14:10 – 14:30  | What ethics does neuroethics bring to bear on the issue of convergence of AI and neurosciences? <br/> *Tabouy Laure* -- *Universite Paris-Saclay, CESP INSERM U1018* | [[Abstract]]({{< relref "../presentations/tabouy-laure" >}})|
+        | 14:30 – 14:50  | Dual Use Concerns of Generative AI and Large Language Models <br/> *Laurynas Adomaitis* -- *CEA/Saclay* | [[Abstract]]({{< relref "../presentations/laurynas-adomaiti" >}})|
+        | 14:50 – 15:15  | **Break**                                                              ||
+        | 15:10 – 15:30  | *Karima Makhlouf* | [[Abstract]]({{< relref "../presentations/karima-makhlouf" >}}) |
+        | 15:30 – 15:50  | Differential Privacy has Bounded Impact on Fairness in Classification <br/> *Michaël Perrot*  -- *Inria* | [[Abstract]]({{< relref "../presentations/michael-perrot" >}}) |
+        | 15:50 – 16:10  | Enhancing Metric Privacy With a Shuffler <br/> *Andreas Athanasiou* -- *PhD Researcher at INRIA,  PhD Student École polytechnique* | [[Abstract]]({{< relref "../presentations/andreas-athanasiou" >}}) |
+        | 16:10 – 16:30  | On the Complexity of Differentially Private Best-Arm Identification with Fixed Confidence <br/> *Achraf Azize* -- *Inria* | [[Abstract]]({{< relref "../presentations/achraf-azize" >}}) |
+        | 16:30 – 16:45  | **Break**                                                              ||
+        | 16:45 – 18:00  | **Keynote: Ferdinando Fioretto -- _University of Virginia_** <br/> **Privacy and Fairness in Societal Systems** | [[Abstract]]({{< relref "authors/fioretto" >}}) |
+        | 18:00 - 19:00  | Free time, free discussions, go to restaurant                      ||
+        | 19:00 - ?      | Dinner at [Bar 19 (approx 500m walk from INRIA building)](https://maps.app.goo.gl/1EjQ7LiPJ4dPM2ow5)            ||
 
-
-        | **Friday**     |                                                         |
-        |----------------|---------------------------------------------------------|
-        | **Time**       | **Event**                                               |
-        | 08:30 – 09:00  | Welcome Coffee                                          |
-        | 09:00 – 10:40  | Presentations                                           |
-        | 10:40 – 11:00  | Break                                                   |
-        | 11:00 – 12:30  | Presentations                                           |
-        | 12:30 – 13:45  | Lunch                                                   |
-        | 13:45 – 15:15  | **Keynote - Giada Pistilli and discussion**             |
-        | 15:15 – 15:30  | Break                                                   |
-        | 15:30 – 17:00  | Round Table                                             |
-        | 17:00 – 18:00  | Free discussions with coffee and snacks                 |
+        | **Friday**     |                                                         ||
+        |----------------|---------------------------------------------------------|-|
+        | **Time**       | **Event**                                               ||
+        | 08:30 – 09:00  | Welcome Coffee                                          ||
+        | 09:00 – 09:20  | A Taxonomy of Security Threats, Vulnerabilities, and Controls of AI Systems <br/> *Yusuke Kawamoto* -- *AIST* | [[Abstract]]({{< relref "../presentations/yusuke-kawamoto" >}}) |
+        | 09:20 – 09:40  | Legal regulation of AI and morality in the context of natural law and legal positivism <br/> *Arturas Grumulaitis* -- *Vilnius University* | [[Abstract]]({{< relref "../presentations/arturas-grumulaitis" >}}) |
+        | 09:40 – 10:00  | When artificial intelligence goes fishing: On the importance of complete and representative training data of AI-driven competition law enforcement <br/> *Jerome De Cooman* -- *University of Liege* | [[Abstract]]({{< relref "../presentations/jerome-cooman" >}}) |
+        | 10:00 – 10:20  | *Konstantin Genin* | [[Abstract]]({{< relref "../presentations/konstantin-genin" >}}) |
+        | 10:20 – 10:40  | *Martina Cinquini* | [[Abstract]]({{< relref "../presentations/martina-cinquini" >}}) |
+        | 10:40 – 11:00  | **Break**                                                   ||
+        | 11:00 – 11:20  | How safe are LLMs compared to search engine autocompletions? A bias check-up <br/> *Alina Leidinger* -- *University of Amsterdam* | [[Abstract]]({{< relref "../presentations/alina-leidinger" >}}) |
+        | 11:20 – 11:40  | When mitigating bias is unfair: predictive multiplicity in algorithmic fairness <br/> *Thibault Laugel* -- *AXA* | [[Abstract]]({{< relref "../presentations/thibault-laugel" >}}) |
+        | 11:40 – 12:00  | Active Fourier Verifier: PAC Estimation of Model Properties with Influence Functions and Fourier Representations <br/> *Ayoub Ajarra* -- *Inria Lille - Scool* | [[Abstract]]({{< relref "../presentations/ayoub-ajarra" >}}) |
+        | 12:00 – 12:20  | Leveraging fairness to quantify attribute inference attacks success <br/> *Jan Aalmoes* -- *INSA Lyon* | [[Abstract]]({{< relref "../presentations/jan-aalmoes" >}}) |
+        | 12:20 – 12:40  | Mitigating inherent biases in language models by reinforcement learning <br/> *Miguel Couceiro* -- *Université de Lorraine, CNRS, LORIA* | [[Abstract]]({{< relref "../presentations/miguel-couceiro" >}}) |
+        | 12:40 – 13:45  | **Lunch**                                                   ||
+        | 13:45 – 15:15  | **Keynote: Giada Pistilli -- _Hugging Face_** <br/> **Conversational AI Ethics: Philosophy and Real-World Case Studies** | [[Abstract]]({{< relref "authors/giada" >}}) |
+        | 15:15 – 15:30  | **Break**                                                  ||
+        | 15:30 – 17:00  | Round Table                                             ||
+        | 17:00 – 18:00  | Free discussions with coffee and snacks                 ||
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: '1'
       view: compact
 
   - block: contact
