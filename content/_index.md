@@ -110,7 +110,7 @@ sections:
         | 13:30 – 13:50  | What is the meaning of "bias" in AI? <br/> *Ambre Davat* -- *GRESEC / Chaire Ethique & IA (Institut MIAI)*    | [[Abstract]]({{< relref "../presentations/ambre-davat" >}})|
         | 13:50 – 14:10  | The need for an interdisciplinary approach to AI research Developing a research ethics framework for AI <br/> *Anais Resseguier* -- *Trilateral Research* | [[Abstract]]({{< relref "../presentations/anais-resseguier" >}})|
         | 14:10 – 14:30  | What ethics does neuroethics bring to bear on the issue of convergence of AI and neurosciences? <br/> *Tabouy Laure* -- *Universite Paris-Saclay, CESP INSERM U1018* | [[Abstract]]({{< relref "../presentations/tabouy-laure" >}})|
-        | 14:30 – 14:50  | Dual Use Concerns of Generative AI and Large Language Models <br/> *Laurynas Adomaitis* -- *CEA/Saclay* | [[Abstract]]({{< relref "../presentations/laurynas-adomaiti" >}})|
+        | 14:30 – 14:50  | Dual Use Concerns of Generative AI and Large Language Models <br/> *Laurynas Adomaitis, Alexei Grinbaum* -- *CEA/Saclay* | [[Abstract]]({{< relref "../presentations/laurynas-adomaiti" >}})|
         | 14:50 – 15:15  | **Break**                                                              ||
         | 15:10 – 15:30  | *Karima Makhlouf* | [[Abstract]]({{< relref "../presentations/karima-makhlouf" >}}) |
         | 15:30 – 15:50  | Differential Privacy has Bounded Impact on Fairness in Classification <br/> *Michaël Perrot*  -- *Inria* | [[Abstract]]({{< relref "../presentations/michael-perrot" >}}) |
