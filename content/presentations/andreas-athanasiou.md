@@ -6,7 +6,7 @@ sections:
   - block: markdown
     content:
       title: Enhancing Metric Privacy With a Shuffler
-      subtitle: Andreas Athanasiou <br/> *PhD Researcher at INRIA,  PhD Student École polytechnique*
+      subtitle: Andreas Athanasiou <br/> *PhD Student at Inria/École polytechnique*
       text: |
         Differential privacy (DP) is one of the most successful frameworks to protect privacy. DP was initially designed in the context of statistical datasets, where we assume the presence of a trusted server that acts as an interface between the data and the data consumers (data analysts). The latter cannot access the data directly but only query it via the server, which is supposed to obfuscate the answer by controlled noise, before reporting it to the analysts. One limitation of this model, nowadays also called the central model of DP, is that the server cannot always be trusted: it may be colluded with an attacker, or just be unable to protect the data from security breaches. For this reason, another model has been proposed, the so called local differential privacy (LDP). In LDP the individual data are obfuscated directly at the end of the data provider, before even being collected. Obviously, LDP offers better privacy and security guarantees than central DP, but it suffers from a reduction of utility, in the sense that, for the same level of DP, the results of analyses on the obfuscated data are less precise.
         

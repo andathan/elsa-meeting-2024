@@ -6,7 +6,7 @@ sections:
   - block: markdown
     content:
       title: Leveraging fairness to quantify attribute inference attacks success
-      subtitle: Jan Aalmoes-- *INSA Lyon*
+      subtitle: Jan Aalmoes <br/> *INSA Lyon*
       text: |
         Machine learning (ML) models have been deployed for high-stakes applications, e.g., healthcare and criminal justice. 
         Privacy and fairness are two important aspects to trust ML models for decision making in such applications.
