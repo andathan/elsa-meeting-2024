@@ -129,7 +129,7 @@ sections:
         | 09:20 – 09:40  | Legal regulation of AI and morality in the context of natural law and legal positivism <br/> *Arturas Grumulaitis* -- *Vilnius University* | [[Abstract]]({{< relref "../presentations/arturas-grumulaitis" >}}) |
         | 09:40 – 10:00  | When artificial intelligence goes fishing: On the importance of complete and representative training data of AI-driven competition law enforcement <br/> *Jerome De Cooman* -- *University of Liege* | [[Abstract]]({{< relref "../presentations/jerome-cooman" >}}) |
         | 10:00 – 10:20  | *Konstantin Genin* | [[Abstract]]({{< relref "../presentations/konstantin-genin" >}}) |
-        | 10:20 – 10:40  | *Martina Cinquini* | [[Abstract]]({{< relref "../presentations/martina-cinquini" >}}) |
+        | 10:20 – 10:40  | CALIME: Causality-Aware Local Interpretable Model-Agnostic Explanations <br/> *Martina Cinquini* -- *University of Pisa* | [[Abstract]]({{< relref "../presentations/martina-cinquini" >}}) |
         | 10:40 – 11:00  | **Break**                                                   ||
         | 11:00 – 11:20  | How safe are LLMs compared to search engine autocompletions? A bias check-up <br/> *Alina Leidinger* -- *University of Amsterdam* | [[Abstract]]({{< relref "../presentations/alina-leidinger" >}}) |
         | 11:20 – 11:40  | When mitigating bias is unfair: predictive multiplicity in algorithmic fairness <br/> *Thibault Laugel* -- *AXA* | [[Abstract]]({{< relref "../presentations/thibault-laugel" >}}) |
