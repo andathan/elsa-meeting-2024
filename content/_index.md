@@ -116,10 +116,11 @@ sections:
         | 15:30 – 15:50  | Differential Privacy has Bounded Impact on Fairness in Classification <br/> *Michaël Perrot*  -- *Inria* | [[Abstract]]({{< relref "../presentations/michael-perrot" >}}) |
         | 15:50 – 16:10  | Enhancing Metric Privacy With a Shuffler <br/> *Andreas Athanasiou* -- *PhD Student at Inria/École polytechnique* | [[Abstract]]({{< relref "../presentations/andreas-athanasiou" >}}) |
         | 16:10 – 16:30  | On the Complexity of Differentially Private Best-Arm Identification with Fixed Confidence <br/> *Achraf Azize* -- *Inria* | [[Abstract]]({{< relref "../presentations/achraf-azize" >}}) |
-        | 16:30 – 16:45  | **Break**                                                              ||
-        | 16:45 – 18:00  | **Keynote: Ferdinando Fioretto -- _University of Virginia_** <br/> **Privacy and Fairness in Societal Systems** | [[Abstract]]({{< relref "authors/fioretto" >}}) |
-        | 18:00 - 19:00  | Free time, free discussions, go to restaurant                      ||
-        | 19:00 - ?      | Dinner at [Bar 19 (approx 500m walk from INRIA building)](https://maps.app.goo.gl/1EjQ7LiPJ4dPM2ow5)            ||
+        | 16:30 – 16:50  | Differential privacy surprises: utility is not (always) monotonic on epsilon <br/> *Natasha Fernandez* -- *Macquarie University* | [[Abstract]]({{< relref "../presentations/natasha-fernandez" >}}) |
+        | 16:50 – 17:15  | **Break**                                                            ||
+        | 17:15 – 18:30  | **Keynote: Ferdinando Fioretto -- _University of Virginia_** <br/> **Privacy and Fairness in Societal Systems** | [[Abstract]]({{< relref "authors/fioretto" >}}) |
+        | 18:30 - 19:00  | Free discussions and going to the restaurant                      ||
+        | 19:00 - ?      | Dinner at [Living-Room (approx 500m walk from INRIA building)](https://maps.app.goo.gl/isKgHFXcRNYx9uey6)            ||
 
         | **Friday**     |                                                         ||
         |----------------|---------------------------------------------------------|-|
