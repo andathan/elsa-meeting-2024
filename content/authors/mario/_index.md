@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Assistant professor at the Federal University of Minas Gerais
+role: Professor of Computer Science at UFMG (Brazil) / Visiting engineer at Inria Saclay (France)
 
 # Short bio (displayed in user profile at end of posts)
 # bio: f
@@ -30,3 +30,4 @@ user_groups:
 
 #### Short bio
 
+Mário S. Alvim is an Assistant Professor of Computer Science at the Federal University of Minas Gerais (UFMG). His research interests include formal methods, particularly quantitative information flow, for security, privacy, fairness, transparency, and other social issues related to responsible computing. He is a guest engineer at Inria Saclay in the COMETE team as part of the ERC ADG HYPATIA project of Catuscia Palamidessi.
