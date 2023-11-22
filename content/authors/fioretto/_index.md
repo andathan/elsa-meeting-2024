@@ -26,7 +26,6 @@ role: Assistant Professor of Computer Science, [University of Virginia](https://
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Keynotes
-  - Invitees
 ---
 
 #### Title: Privacy and Fairness in Societal Systems

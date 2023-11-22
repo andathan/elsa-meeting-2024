@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Professor of Computer Science at UFMG (Brazil) / Visiting engineer at Inria Saclay (France)
+role: Professor of Computer Science at [UFMG](https://ufmg.br/) (Brazil) / Visiting engineer at [Inria Saclay](https://www.inria.fr/fr/centre-inria-de-saclay) (France)
 
 # Short bio (displayed in user profile at end of posts)
 # bio: f
