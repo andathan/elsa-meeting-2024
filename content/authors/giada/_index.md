@@ -26,6 +26,7 @@ role: Principal Ethicist, [Hugging Face](https://huggingface.co/).
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Keynotes
+  - Invitees
 ---
 
 #### Title: Conversational AI Ethics: Philosophy and Real-World Case Studies

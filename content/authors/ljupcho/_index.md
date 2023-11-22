@@ -26,6 +26,7 @@ role: Permanent Research Associate, [University of Liège](https://www.uliege.be
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Keynotes
+  - Invitees
 ---
 
 #### Title: The Explanations One Needs for the Explanations One Gives: Thoughts on the Epistemic Link between Explainable AI and Causal (Evidentiary) Explanations under the EU’s AI Liability Regulation

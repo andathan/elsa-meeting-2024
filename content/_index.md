@@ -148,6 +148,28 @@ sections:
       columns: '1'
       view: compact
 
+  - block: people
+    id: roundtable
+    content:
+      title: Round table
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+        - Invitees
+        - Moderator
+      sort_by: Params.first_name
+      sort_ascending: true
+    design:
+      show_interests: false
+      show_role: true
+      show_organizations: true
+      view: card        
+    design:
+      # See Page Builder docs for all section customization options.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+      view: card
+
   - block: contact
     id: venue
     content:
