@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comete Ethical AI Workshop</title>
+    <link>https://lix.polytechnique.fr/ethicalai/</link>
+      <atom:link href="https://lix.polytechnique.fr/ethicalai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Comete Ethical AI Workshop</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://lix.polytechnique.fr/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_300x300_fit_lanczos_3.png</url>
+      <title>Comete Ethical AI Workshop</title>
+      <link>https://lix.polytechnique.fr/ethicalai/</link>
+    </image>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://lix.polytechnique.fr/ethicalai/contact/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://lix.polytechnique.fr/ethicalai/people/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lix.polytechnique.fr/ethicalai/author/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/author/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Taxonomy of Security Threats, Vulnerabilities, and Controls of AI Systems</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/yusuke-kawamoto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/yusuke-kawamoto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active Fourier Verifier: PAC Estimation of Model Properties with Influence Functions and Fourier Representations</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/ayoub-ajarra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/ayoub-ajarra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CALIME: Causality-Aware Local Interpretable Model-Agnostic Explanations</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/martina-cinquini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/martina-cinquini/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differential Privacy has Bounded Impact on Fairness in Classification</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/michael-perrot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/michael-perrot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differential privacy surprises: utility is not (always) monotonic on epsilon</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/natasha-fernandes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/natasha-fernandes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual Use Concerns of Generative AI and Large Language Models</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/laurynas-adomaiti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/laurynas-adomaiti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing Metric Privacy With a Shuffler</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/andreas-athanasiou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/andreas-athanasiou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How safe are LLMs compared to search engine autocompletions? A bias check-up</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/alina-leidinger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/alina-leidinger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Legal regulation of AI and morality in the context of natural law and legal positivism -- *Arturas Grumulaitis* &lt;br/&gt; *Vilnius University*</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/arturas-grumulaitis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/arturas-grumulaitis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging fairness to quantify attribute inference attacks success</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/jan-aalmoes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/jan-aalmoes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitigating inherent biases in language models by reinforcement learning</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/miguel-couceiro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/miguel-couceiro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Complexity of Differentially Private Best-Arm Identification with Fixed Confidence</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/achraf-azize/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/achraf-azize/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Impact of Local Differential Privacy on Fairness: A Formal Approach</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/karima-makhlouf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/karima-makhlouf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performativity and Prospective Fairness</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/konstantin-genin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/konstantin-genin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The need for an interdisciplinary approach to AI research Developing a research ethics framework for AI</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/anais-resseguier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/anais-resseguier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What ethics does neuroethics bring to bear on the issue of convergence of AI and neurosciences?</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/tabouy-laure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/tabouy-laure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is the meaning of &#34;bias&#34; in AI?</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/ambre-davat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/ambre-davat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When artificial intelligence goes fishing: On the importance of complete and representative training data of AI-driven competition law enforcement</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/jerome-cooman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/jerome-cooman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When mitigating bias is unfair: predictive multiplicity in algorithmic fairness</title>
+      <link>https://lix.polytechnique.fr/ethicalai/presentations/thibault-laugel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lix.polytechnique.fr/ethicalai/presentations/thibault-laugel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

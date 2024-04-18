@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruta Binkyte | Comete Ethical AI Workshop</title>
+    <link>https://lix.polytechnique.fr/ethicalai/author/ruta-binkyte/</link>
+      <atom:link href="https://lix.polytechnique.fr/ethicalai/author/ruta-binkyte/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ruta Binkyte</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://lix.polytechnique.fr/ethicalai/author/ruta-binkyte/avatar_hu42558dc9edbff615a72a381e7ac175f6_694715_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Ruta Binkyte</title>
+      <link>https://lix.polytechnique.fr/ethicalai/author/ruta-binkyte/</link>
+    </image>
+    
+  </channel>
+</rss>

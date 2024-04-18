@@ -1,0 +1,2423 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: March 18, 2024 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/ethicalai/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/ethicalai/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/ethicalai/css/wowchemy.2b0f89e1d06dd9aefe660591a142e8b6.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/ethicalai/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/ethicalai/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<meta name="description" content="" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://lix.polytechnique.fr/ethicalai/" />
+<link rel="canonical" href="https://lix.polytechnique.fr/ethicalai/" />
+
+
+
+  <link rel="manifest" href="/ethicalai/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/ethicalai/media/icon_huea1068804100d8e5c82b358e272b90a5_10897_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/ethicalai/media/icon_huea1068804100d8e5c82b358e272b90a5_10897_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://lix.polytechnique.fr/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_300x300_fit_lanczos_3.png" />
+<meta property="og:site_name" content="Comete Ethical AI Workshop" />
+<meta property="og:url" content="https://lix.polytechnique.fr/ethicalai/" />
+<meta property="og:title" content="Comete Ethical AI Workshop" />
+<meta property="og:description" content="" /><meta property="og:image" content="https://lix.polytechnique.fr/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://lix.polytechnique.fr/ethicalai/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://lix.polytechnique.fr/ethicalai/"
+}
+</script>
+
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://lix.polytechnique.fr/ethicalai/",
+  "name": "Comete Ethical AI Workshop",
+  "logo": "https://lix.polytechnique.fr/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_192x192_fit_lanczos_3.png",
+  
+  
+  
+  
+  "url": "https://lix.polytechnique.fr/ethicalai/"
+}
+</script>
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  
+    <link rel="alternate" href="/ethicalai/index.xml" type="application/rss+xml" title="Comete Ethical AI Workshop" />
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#1565c0",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#1565c0"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+  <title>Comete Ethical AI Workshop</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/ethicalai/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/ethicalai/"><img src="/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_0x70_resize_lanczos_3.png" alt="Comete Ethical AI Workshop" height="auto"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/ethicalai/"><img src="/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_0x70_resize_lanczos_3.png" alt="Comete Ethical AI Workshop" height="auto"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#about" data-target="#about"><span>About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#keynotes" data-target="#keynotes"><span>Keynotes</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#programme" data-target="#programme"><span>Programme</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#venue" data-target="#venue"><span>Venue</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#organizers" data-target="#organizers"><span>Organizers</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Previous editions</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/ethicalai/previous/2022/" data-target="/ethicalai/previous/2022/"><span>2022</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+<span class="js-widget-page d-none"></span>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+      
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  " style="padding: 2% 0 20% 0;" >
+ <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://lix.polytechnique.fr/ethicalai/media/ethics_huf1584866619a9b9a79d6bc9c3edbe718_739100_1920x1920_fit_q75_h2_lanczos_3.webp&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0"><center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /ethicalai/media/logos-all-white_hubdc32b68d736cd64c24c49d9e8ad3644_34521_834f65aee3a7dc520cf247430dacb70e.webp 400w,
+               /ethicalai/media/logos-all-white_hubdc32b68d736cd64c24c49d9e8ad3644_34521_3aaf89a4ca79f1c3558ce7d227f77986.webp 760w,
+               /ethicalai/media/logos-all-white_hubdc32b68d736cd64c24c49d9e8ad3644_34521_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/ethicalai/media/logos-all-white_hubdc32b68d736cd64c24c49d9e8ad3644_34521_834f65aee3a7dc520cf247430dacb70e.webp"
+               width="50%"
+               height="50%"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</center>
+</h1>
+          <p class="mt-1"><p style="color: white;font-size: 2.25rem;">Workshop @ Comète on Ethical AI</p>
+</p>
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <p style="color: white;font-size: 1.1rem;text-align: center">November 23-24, 2023 - Palaiseau, Paris, France</p>
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="about" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">About</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <p>The research team <a href="https://team.inria.fr/Comete/" target="_blank" rel="noopener">Comète (Inria Polytechnique)</a> is launching a call for proposals for a 2 days workshop on <strong>Ethical Artificial Intelligence</strong>, that will take place on 23th-24th November 2023. For this second session, we focus on the <strong>intrinsic trade-offs</strong> that lie at the heart of Ethical AI. As we observe encouraging progress in domains such as <strong>Fairness, Privacy, Explainability, and Robustness</strong>, we also see tensions between different goals of Ethical AI. The goal of this Workshop is to have a higher-level overview of the challenges and achievements of trying to satisfy multiple desiderata of Ethical AI at once. We seek to bring together researchers from diverse disciplines in computer science, social sciences, law, and industry practitioners. The possible topics include, but are not limited to trade-offs between:</p>
+<ul>
+<li>Fairness and accuracy</li>
+<li>Privacy and accuracy</li>
+<li>Causality in Ethical AI</li>
+<li>Explainability and accuracy</li>
+<li>Robustness and accuracy</li>
+<li>Privacy and fairness</li>
+<li>Technological progress and following ethical guidelines</li>
+<li>Technological progress and job loss</li>
+<li>Cultural values and objectivity</li>
+<li>Open source and regulation</li>
+<li>Safety and performance</li>
+</ul>
+<p>Join us for interdisciplinary discussions, thought-provoking conversations, knowledge-sharing, and friendly coffee breaks :). Last but not the least, the workshop is getting famous for French gourmet dinner for the participants!</p>
+
+
+<ul class="cta-group">
+  
+  <li>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8_ifqA8GsnqDTKG8hXoviVBWJvqQ8_-aV2cwUrXmmjWo0jA/viewform?usp=sf_link"  class="btn btn-primary px-3 py-3">Click here to register</a>
+  </li>
+  
+  
+</ul>
+
+<p>If you have any questions please contact <a href="mailto:szilvia.lestyan@inria.fr">szilvia.lestyan@inria.fr</a>.</p>
+<div class="alert alert-note">
+  <div>
+    <h4 id="key-dates">Key dates</h4>
+<ul>
+<li>Abstract submission: <del>09th October 2023</del> <del>19th October 2023</del></li>
+<li>Confirmation of acceptance: <del>21th October 2023</del></li>
+<li>Workshop: 23th-24th November 2023</li>
+</ul>
+  </div>
+</div>
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="keynotes" class="home-section wg-people  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+    <div class="section-heading col-12 mb-3 text-center">
+      <h1 class="mb-0">Keynote Speakers</h1>
+      
+    </div>
+  
+
+  
+
+  
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/ferdinando-fioretto/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/ferdinando-fioretto/avatar_hu557ffe86ccdfe73475e0a5602c9c4fa4_259501_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/ferdinando-fioretto/">Ferdinando Fioretto</a></h2>
+          
+          <h3>Assistant Professor of Computer Science, <a href="https://engineering.virginia.edu/departments/computer-scienc" target="_blank" rel="noopener">University of Virginia</a></h3>
+          
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/giada-pistilli/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/giada-pistilli/avatar_hu535661bce2c742bf7a0f6a055ac0b6d1_538971_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/giada-pistilli/">Giada Pistilli</a></h2>
+          
+          <h3>Principal Ethicist, <a href="https://huggingface.co/" target="_blank" rel="noopener">Hugging Face</a>.</h3>
+          
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/ljupcho-grozdanovski/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/ljupcho-grozdanovski/avatar_hue655d5d4b3e0d1f3f912f25f6115b6eb_160864_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/ljupcho-grozdanovski/">Ljupcho Grozdanovski</a></h2>
+          
+          <h3>Permanent Research Associate, <a href="https://www.uliege.be/cms/c_8699436/en/uliege" target="_blank" rel="noopener">University of Liège</a></h3>
+          
+          
+        </div>
+      </div>
+    
+  
+</div>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="programme" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">Programme</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <style>
+  thead {
+    background: rgb(252,213,100);
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+<table>
+<thead>
+<tr>
+<th><strong>Thursday</strong></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Time</strong></td>
+<td><strong>Event</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>10:30 – 12:00</td>
+<td>Welcome Brunch</td>
+<td></td>
+</tr>
+<tr>
+<td>12:00 – 13:15</td>
+<td><strong>Keynote: Ljupcho Grozdanovski &ndash; <em>University of Liège</em></strong> <br/> <strong>The Explanations One Needs for the Explanations One Gives: Thoughts on the Epistemic Link between Explainable AI and Causal (Evidentiary) Explanations under the EU’s AI Liability Regulation</strong></td>
+<td><a href="/ethicalai/author/ljupcho-grozdanovski/">[Abstract]</a></td>
+</tr>
+<tr>
+<td>13:15 – 13:30</td>
+<td>Short coffee break</td>
+<td></td>
+</tr>
+<tr>
+<td>13:30 – 13:50</td>
+<td>What is the meaning of &ldquo;bias&rdquo; in AI? <br/> <em>Ambre Davat</em> &ndash; <em>GRESEC / Chaire Ethique &amp; IA (Institut MIAI)</em></td>
+<td><a href="/ethicalai/presentations/ambre-davat/">[Abstract]</a> <br/> <a href="uploads/ambre-davat.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>13:50 – 14:10</td>
+<td>The need for an interdisciplinary approach to AI research Developing a research ethics framework for AI <br/> <em>Anais Resseguier</em> &ndash; <em>Trilateral Research</em></td>
+<td><a href="/ethicalai/presentations/anais-resseguier/">[Abstract]</a> <br/> <a href="uploads/anais-resseguier.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>14:10 – 14:30</td>
+<td>What ethics does neuroethics bring to bear on the issue of convergence of AI and neurosciences? <br/> <em>Tabouy Laure</em> &ndash; <em>Universite Paris-Saclay, CESP INSERM U1018</em></td>
+<td><a href="/ethicalai/presentations/tabouy-laure/">[Abstract]</a></td>
+</tr>
+<tr>
+<td>14:30 – 14:50</td>
+<td>Dual Use Concerns of Generative AI and Large Language Models <br/> <em>Laurynas Adomaitis, Alexei Grinbaum</em> &ndash; <em>CEA/Saclay</em></td>
+<td><a href="/ethicalai/presentations/laurynas-adomaiti/">[Abstract]</a> <br/> <a href="uploads/laurynas-adomaiti.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>14:50 – 15:15</td>
+<td><strong>Break</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>15:10 – 15:30</td>
+<td>On the Impact of Local Differential Privacy on Fairness: A Formal Approach <br/>  <em>Karima Makhlouf</em> &ndash; <em>Inria and École Polytechnique</em></td>
+<td><a href="/ethicalai/presentations/karima-makhlouf/">[Abstract]</a> <br/> <a href="uploads/karima-makhlouf.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>15:30 – 15:50</td>
+<td>Differential Privacy has Bounded Impact on Fairness in Classification <br/> <em>Michaël Perrot</em>  &ndash; <em>Inria</em></td>
+<td><a href="/ethicalai/presentations/michael-perrot/">[Abstract]</a> <br/> <a href="uploads/michael-perrot.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>15:50 – 16:10</td>
+<td>Enhancing Metric Privacy With a Shuffler <br/> <em>Andreas Athanasiou</em> &ndash; <em>PhD Student at Inria/École polytechnique</em></td>
+<td><a href="/ethicalai/presentations/andreas-athanasiou/">[Abstract]</a> <br/> <a href="uploads/andreas-athanasiou.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>16:10 – 16:30</td>
+<td>On the Complexity of Differentially Private Best-Arm Identification with Fixed Confidence <br/> <em>Achraf Azize</em> &ndash; <em>Inria</em></td>
+<td><a href="/ethicalai/presentations/achraf-azize/">[Abstract]</a> <br/> <a href="uploads/achraf-azize.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>16:30 – 16:50</td>
+<td>Differential privacy surprises: utility is not (always) monotonic on epsilon <br/> <em>Natasha Fernandes</em> &ndash; <em>Macquarie University</em></td>
+<td><a href="/ethicalai/presentations/natasha-fernandes/">[Abstract]</a> <br/> <a href="uploads/natasha-fernandes.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>16:50 – 17:15</td>
+<td><strong>Break</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>17:15 – 18:30</td>
+<td><strong>Keynote: Ferdinando Fioretto &ndash; <em>University of Virginia</em></strong> <br/> <strong>Privacy and Fairness in Societal Systems</strong></td>
+<td><a href="/ethicalai/author/ferdinando-fioretto/">[Abstract]</a></td>
+</tr>
+<tr>
+<td>18:30 - 19:00</td>
+<td>Free discussions and going to the restaurant</td>
+<td></td>
+</tr>
+<tr>
+<td>19:00 - ?</td>
+<td>Dinner at <a href="https://maps.app.goo.gl/isKgHFXcRNYx9uey6" target="_blank" rel="noopener">Living-Room (approx 500m walk from INRIA building)</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Friday</strong></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Time</strong></td>
+<td><strong>Event</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>08:30 – 09:00</td>
+<td>Welcome Coffee</td>
+<td></td>
+</tr>
+<tr>
+<td>09:00 – 09:20</td>
+<td>A Taxonomy of Security Threats, Vulnerabilities, and Controls of AI Systems <br/> <em>Yusuke Kawamoto</em> &ndash; <em>AIST</em></td>
+<td><a href="/ethicalai/presentations/yusuke-kawamoto/">[Abstract]</a></td>
+</tr>
+<tr>
+<td>09:20 – 09:40</td>
+<td>Legal regulation of AI and morality in the context of natural law and legal positivism <br/> <em>Arturas Grumulaitis</em> &ndash; <em>Vilnius University</em></td>
+<td><a href="/ethicalai/presentations/arturas-grumulaitis/">[Abstract]</a> <br/> <a href="uploads/arturas-grumulaitis.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>09:40 – 10:00</td>
+<td>When artificial intelligence goes fishing: On the importance of complete and representative training data of AI-driven competition law enforcement <br/> <em>Jerome De Cooman</em> &ndash; <em>University of Liege</em></td>
+<td><a href="/ethicalai/presentations/jerome-cooman/">[Abstract]</a> <br/> <a href="uploads/jerome-cooman.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>10:00 – 10:20</td>
+<td><em>Performativity and Prospective Fairness</em> <br/> <em>Konstantin Genin</em> &ndash; <em>University of Tübingen</em></td>
+<td><a href="/ethicalai/presentations/konstantin-genin/">[Abstract]</a> <br/> <a href="uploads/konstantin-genin.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>10:20 – 10:40</td>
+<td>CALIME: Causality-Aware Local Interpretable Model-Agnostic Explanations <br/> <em>Martina Cinquini</em> &ndash; <em>University of Pisa</em></td>
+<td><a href="/ethicalai/presentations/martina-cinquini/">[Abstract]</a> <br/> <a href="uploads/martina-cinquini.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>10:40 – 11:00</td>
+<td><strong>Break</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>11:00 – 11:20</td>
+<td>How safe are LLMs compared to search engine autocompletions? A bias check-up <br/> <em>Alina Leidinger</em> &ndash; <em>University of Amsterdam</em></td>
+<td><a href="/ethicalai/presentations/alina-leidinger/">[Abstract]</a> <br/> <a href="uploads/alina-leidinger.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>11:20 – 11:40</td>
+<td>When mitigating bias is unfair: predictive multiplicity in algorithmic fairness <br/> <em>Thibault Laugel</em> &ndash; <em>AXA</em></td>
+<td><a href="/ethicalai/presentations/thibault-laugel/">[Abstract]</a> <br/> <a href="uploads/thibault-laugel.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>11:40 – 12:00</td>
+<td>Active Fourier Verifier: PAC Estimation of Model Properties with Influence Functions and Fourier Representations <br/> <em>Ayoub Ajarra</em> &ndash; <em>Inria Lille - Scool</em></td>
+<td><a href="/ethicalai/presentations/ayoub-ajarra/">[Abstract]</a> <br/> <a href="uploads/ayoub-ajarra.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>12:00 – 12:20</td>
+<td>Leveraging fairness to quantify attribute inference attacks success <br/> <em>Jan Aalmoes</em> &ndash; <em>INSA Lyon</em></td>
+<td><a href="/ethicalai/presentations/jan-aalmoes/">[Abstract]</a> <br/> <a href="uploads/jan-aalmoes.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>12:20 – 12:40</td>
+<td>Mitigating inherent biases in language models by reinforcement learning <br/> <em>Miguel Couceiro</em> &ndash; <em>Université de Lorraine, CNRS, LORIA</em></td>
+<td><a href="/ethicalai/presentations/miguel-couceiro/">[Abstract]</a> <br/> <a href="uploads/miguel-couceiro.pdf">[Presentation]</a></td>
+</tr>
+<tr>
+<td>12:40 – 13:45</td>
+<td><strong>Lunch</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>13:45 – 15:15</td>
+<td><strong>Keynote: Giada Pistilli &ndash; <em>Hugging Face</em></strong> <br/> <strong>Conversational AI Ethics: Philosophy and Real-World Case Studies</strong></td>
+<td><a href="/ethicalai/author/giada-pistilli/">[Abstract]</a></td>
+</tr>
+<tr>
+<td>15:15 – 15:30</td>
+<td><strong>Break</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>15:30 – 17:00</td>
+<td>Round Table</td>
+<td></td>
+</tr>
+<tr>
+<td>17:00 – 18:00</td>
+<td>Free discussions with coffee and snacks</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="roundtable" class="home-section wg-people  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+    <div class="section-heading col-12 mb-3 text-center">
+      <h1 class="mb-0">Round table</h1>
+      
+    </div>
+  
+
+  
+
+  
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+      <div class="col-md-12">
+        <h2 class="mb-4">Invitees</h2>
+      </div>
+    
+
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/anastasia-stasenko/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/anastasia-stasenko/avatar_hua7d505461f429632ec9fd2ebe4c12bf9_100185_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/anastasia-stasenko/">Anastasia Stasenko</a></h2>
+          
+          <h3>Research Lead at <a href="https://opsci.ai" target="_blank" rel="noopener">opsci.ai</a>.</h3>
+          
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/giada-pistilli/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/giada-pistilli/avatar_hu535661bce2c742bf7a0f6a055ac0b6d1_538971_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/giada-pistilli/">Giada Pistilli</a></h2>
+          
+          <h3>Principal Ethicist, <a href="https://huggingface.co/" target="_blank" rel="noopener">Hugging Face</a>.</h3>
+          
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/ljupcho-grozdanovski/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/ljupcho-grozdanovski/avatar_hue655d5d4b3e0d1f3f912f25f6115b6eb_160864_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/ljupcho-grozdanovski/">Ljupcho Grozdanovski</a></h2>
+          
+          <h3>Permanent Research Associate, <a href="https://www.uliege.be/cms/c_8699436/en/uliege" target="_blank" rel="noopener">University of Liège</a></h3>
+          
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/natasha-fernandes/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/natasha-fernandes/avatar_hu25d333fcded103db2f52f7476cb1420a_1273973_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/natasha-fernandes/">Natasha Fernandes</a></h2>
+          
+          <h3>Lecturer in Cyber Security, <a href="https://www.mq.edu.au/" target="_blank" rel="noopener">Macquarie University</a>, Australia</h3>
+          
+          
+        </div>
+      </div>
+    
+  
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+      <div class="col-md-12">
+        <h2 class="mb-4">Moderator</h2>
+      </div>
+    
+
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/mario-s.-alvim/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/mario-s.-alvim/avatar_hu585913ae10a241f4a46a4132168feaa3_83276_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/mario-s.-alvim/">Mário S. Alvim</a></h2>
+          
+          <h3>Professor of Computer Science at <a href="https://ufmg.br/" target="_blank" rel="noopener">UFMG</a> (Brazil) / Visiting engineer at <a href="https://www.inria.fr/fr/centre-inria-de-saclay" target="_blank" rel="noopener">Inria Saclay</a> (France)</h3>
+          
+          
+        </div>
+      </div>
+    
+  
+</div>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="venue" class="home-section wg-contact  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Venue</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  <p><blockquote>
+<p>Inria Saclay<br>
+1 Rue Honoré d&rsquo;Estienne d&rsquo;Orves<br>
+Bâtiment Alan Turing<br>
+Campus de l&rsquo;École Polytechnique<br>
+Palaiseau, France</p>
+</blockquote></p>
+
+  
+
+  <ul class="fa-ul">
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+  </ul>
+
+  
+  <div class="d-none">
+    <input id="map-provider" value="mapnik">
+    <input id="map-lat" value="48.7145246">
+    <input id="map-lng" value="2.2056062">
+    <input id="map-dir" value="">
+    <input id="map-zoom" value="15">
+    <input id="map-api-key" value="">
+  </div>
+  <div id="map"></div>
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="organizers" class="home-section wg-people  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+    <div class="section-heading col-12 mb-3 text-center">
+      <h1 class="mb-0">Organizers</h1>
+      
+    </div>
+  
+
+  
+
+  
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/szilvia-lestyan/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/szilvia-lestyan/avatar_hu1b71089bc18b66a2a172572c74a14a59_48839_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/szilvia-lestyan/">Szilvia Lestyan</a></h2>
+          
+          <h3><p>Post-doctoral Researcher at Inria</p>
+<p><a href="mailto:szilvia.lestyan@inria.fr">szilvia.lestyan@inria.fr</a></p>
+</h3>
+          <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/ruta-binkyte/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/ruta-binkyte/avatar_hu42558dc9edbff615a72a381e7ac175f6_694715_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/ruta-binkyte/">Ruta Binkyte</a></h2>
+          
+          <h3><p>PhD Student at Inria, LIX École Polytechnique</p>
+<p><a href="mailto:ruta.binkyte-sadauskiene@inria.fr">ruta.binkyte-sadauskiene@inria.fr</a></p>
+</h3>
+          <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/ramon-goncalves-gonze/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/ramon-goncalves-gonze/avatar_hua7493735f9e7be5bba62ef3254ec32e8_89034_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/ramon-goncalves-gonze/">Ramon Gonçalves Gonze</a></h2>
+          
+          <h3><p>PhD Student at Inria, LIX École Polytechnique and Federal University of Minas Gerais</p>
+<p><a href="mailto:ramon.gonze@inria.fr">ramon.gonze@inria.fr</a></p>
+</h3>
+          <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/catuscia-palamidessi/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/catuscia-palamidessi/avatar_hu2956b3f9acb4811d1ee8a69c5882303d_405321_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/catuscia-palamidessi/">Catuscia Palamidessi</a></h2>
+          
+          <h3><p>Director of Research at Inria</p>
+<p><a href="mailto:catuscia@lix.polytechnique.fr">catuscia@lix.polytechnique.fr</a></p>
+</h3>
+          <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+        
+      
+      <div class="col-12 col-sm-auto people-person">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/ethicalai/author/bilel-benbouzid/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/ethicalai/author/bilel-benbouzid/avatar_hu0c4616167405483d2995f0b0bb511a48_166796_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/ethicalai/author/bilel-benbouzid/">Bilel Benbouzid</a></h2>
+          
+          <h3><p>Professor at Université Gustave Eiffel</p>
+<p><a href="mailto:bilel.benbouzid@u-pem.fr">bilel.benbouzid@u-pem.fr</a></p>
+</h3>
+          <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+          
+        </div>
+      </div>
+    
+  
+</div>
+
+
+  
+
+  </div>
+</section>
+
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/ethicalai/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/ethicalai/en/js/wowchemy.min.4922cd6d3d810ab587afa7cdb3851db6.js"></script>
+
+
+
+  <script src="/ethicalai/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

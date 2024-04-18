@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: March 18, 2024 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/ethicalai/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/ethicalai/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/ethicalai/css/wowchemy.2b0f89e1d06dd9aefe660591a142e8b6.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/ethicalai/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/ethicalai/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<meta name="description" content="" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://lix.polytechnique.fr/ethicalai/presentations/jerome-cooman/" />
+<link rel="canonical" href="https://lix.polytechnique.fr/ethicalai/presentations/jerome-cooman/" />
+
+
+
+  <link rel="manifest" href="/ethicalai/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/ethicalai/media/icon_huea1068804100d8e5c82b358e272b90a5_10897_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/ethicalai/media/icon_huea1068804100d8e5c82b358e272b90a5_10897_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://lix.polytechnique.fr/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_300x300_fit_lanczos_3.png" />
+<meta property="og:site_name" content="Comete Ethical AI Workshop" />
+<meta property="og:url" content="https://lix.polytechnique.fr/ethicalai/presentations/jerome-cooman/" />
+<meta property="og:title" content="When artificial intelligence goes fishing: On the importance of complete and representative training data of AI-driven competition law enforcement | Comete Ethical AI Workshop" />
+<meta property="og:description" content="" /><meta property="og:image" content="https://lix.polytechnique.fr/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#1565c0",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#1565c0"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+  <title>When artificial intelligence goes fishing: On the importance of complete and representative training data of AI-driven competition law enforcement | Comete Ethical AI Workshop</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="fe189e2208233b63052b994b6e767cdc" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/ethicalai/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/ethicalai/"><img src="/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_0x70_resize_lanczos_3.png" alt="Comete Ethical AI Workshop" height="auto"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/ethicalai/"><img src="/ethicalai/media/logo_hu1eb3cadf74eada81710e9b6c954372bc_19821_0x70_resize_lanczos_3.png" alt="Comete Ethical AI Workshop" height="auto"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#about"><span>About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#keynotes"><span>Keynotes</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#programme"><span>Programme</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#venue"><span>Venue</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ethicalai/#organizers"><span>Organizers</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Previous editions</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/ethicalai/previous/2022/"><span>2022</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+<span class="js-widget-page d-none"></span>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">When artificial intelligence goes fishing: On the importance of complete and representative training data of AI-driven competition law enforcement</h1>
+          <p class="mt-1">Jerome De Cooman <br/> <em>University of Liege</em></p>
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <p>Artificial Intelligence (hereafter, ‘AI’) systems are widely adopted by public administrations. Competition law does not escape the rule. This is unsurprising. First, AI systems promise to address well-documented flaws in human decision-making, e.g., arbitrariness or bias. Second, AI systems carries the potential to solve the scissor effect of competition law enforcement identified by the European Court of Auditors (hereafter, ‘ECA’) in 2020, i.e., a decrease of market surveillance capacity on the one hand, and an increase of cases’ complexity on the other [1]. The ECA therefore demanded the European Commission (hereafter, ‘EC’) to put more effort into proactively detecting anticompetitive behaviours. In this regard, it has been suggested AI systems could revitalize ex officio investigations by helping the EC open the ‘right’ investigation [2]. One way to do so is AI-driven cartel screening [3].</p>
+<p>AI-driven cartel screening flags abnormal patterns that then trigger the need for further investigations [4]. This paper chooses to focus on dawn raids. In this regard, it should be borne in mind that the duty to state reason applies to dawn raid – at least to some extent. Leaving aside the duty to state specific reason pursuant to Article 20(4) Regulation 1/2003 [5], this paper focuses on the condition proposed by the European Court of Justice (hereafter, ‘ECJ’): for a dawn raid to be legal, the EC has to be in possession of information and evidence providing reasonable grounds for suspecting infringement of competition law by the undertaking concerned [6], and that the statement of reason must not be excessively vague, succinct and generic [7]. The question is, therefore, whether the conclusion of AI-driven cartel screening constitutes such information and evidence providing reasonable grounds.</p>
+<p>This is debatable. This algorithmic shift in the fight against cartel faces (at least) one major challenge. AI-driven cartel screening is a data-dependent solution that is, therefore, impacted by problems in the availability and quality of the data it relies on [8]. As a result, the rate of error (both type I and type II) is forecasted to be non-negligible [9].
+In the context of copyright infringement [10], it has been held by the ECJ that a filtering system with an inadequate rate of false positive would be contrary to fundamental rights [11]. The identification of the adequate level is, obviously, the stumbling stone of the discussion. Advocate General Henrik Saugmandsgaard Øe suggested in his opinion delivered in Poland v Commission that ‘the error rate should be as low as possible’ [12]. Therefore, whenever it is not possible ‘in the current state of technology (…) to use an automatic filtering tool without resulting in a ‘false positive’ rate that is significant, the use of such a tool should (…) be precluded’ [12]. This paper argues that a similar reasoning holds in the context of competition law and dawn raid.</p>
+<p>To solve the twofold data-issue, this paper draws inspiration from the Proposal for a Regulation laying down harmonised rule on AI (hereafter, ‘AI Act’) and suggests technical (based on semi-supervised learning) solutions to ensure that AI, rather than legally justifying a dawn raid, does not become a source of fishing expeditions.</p>
+<hr>
+<p>[1] European Court of Auditors, ‘The Commission’s EU merger control and antitrust proceedings: a need to scale up market oversight’ (November 2020) Special Report n°24.</p>
+<p>[2] Andreas von Bonin and Sharon Malhi, ‘The Use of Artificial Intelligence in the Future of Competition Law Enforcement’ (2020) 11 Journal of European Competition Law &amp; Practice 468.</p>
+<p>[3] Nathalie de Marcellis-Warin, Frédéric Marty and Thierry Warin, ‘Vers un virage algorithmique de la lutte anticartels? Explicabilité et redevabilité à l’aube des algorithmes de surveillance’ (2021) 23 Revue internationale d’éthique sociétale et gouvernementale 1.</p>
+<p>[4] Joseph E. Harrington, Jr. And David Imhof, ‘Cartel Screening and Machine Learning’ (2022) 2 Stanford Computational Antitrust 133.</p>
+<p>[5] Council Regulation (EC) No 1/2003 of 16 December 2002 on the implementation of the rules on competition laid down in Articles 81 and 82 of the Treaty, OJ L 1, 4 January 2003, 1-25.</p>
+<p>[6] Case C-94/00, Roquette Frères, EU:C:2002:603, paras 44-50.</p>
+<p>[7] Case C-247/14 P HeidelbergCement AG v European Commission, ECLI:EU:C:2016:149, para 39. This case concerned a request for information under Article 18(3) of Regulation 1/2003 but it has been argued its conclusion may be applied mutatis mutandis to dawn raid. On this, see Helene Andersson, Dawn Raids Under Challenge: Due Process Aspects on the European Commission’s Dawn Raid Practices (Hart Publishing 2018) 86.</p>
+<p>[8] Albert Sanchez-Graells, ‘Data-Driven and Digital Procurement Governance: Revisiting Two Well-Known Elephant Tales’ (2019) 24 Communications Laws 157.</p>
+<p>[9] For a similar argument made in a (non-algorithmic) cartel screening, see Frederic M. Scherer, Industrial Market Structure and Economic Performance (Rand McNally &amp; Company 1970) 131.</p>
+<p>[10] More concretely, it was in the context of the introduction of a system for filtering information stored on an online social networking platform in order to prevent the publication online of files which infringe copyright.</p>
+<p>[11] Case C-360/10 Belgische Vereniging van Auteurs, Componisten en Uitgevers CVBA (SABAM) v Netlog NV, EU:C:2012:85, para 50 (emphasis added).</p>
+<p>[12] Opinion of Advocate General Saugmandsgaard Øe delivered on 15 July 2021 in Case-401/19 Republic of Poland v European Parliament and the Council of the Eurpean Union, EU:C:2021:613, para 214.</p>
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/ethicalai/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/ethicalai/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/ethicalai/en/js/wowchemy.min.4922cd6d3d810ab587afa7cdb3851db6.js"></script>
+
+
+
+  <script src="/ethicalai/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
